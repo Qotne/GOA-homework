@@ -3,9 +3,10 @@ from turtle import*
 #we want to paint a castle
 
 #step 1: draw a square
-speed(30)
+speed(10)
 width(7)
 color("gray")
+begin_fill()
 forward(200)
 left(90)
 
@@ -17,6 +18,7 @@ left(90)
 
 forward(200)
 left(90)
+end_fill()
 #end of square
 
 #drawin a door
@@ -34,25 +36,44 @@ penup()
 goto(200, 200)
 pendown()
 
-color("gray")
+
+color("red")
+begin_fill()
 right(150)
 forward(200)
 left(120)
 forward(200)
 left(20)
-
-penup()
-goto(0,0)
-pendown()
-color("gray")
-begin_fill()
-forward(150)
-left(100)
-forward(250)
-left(99)
-forward(150)
 end_fill()
 
+color("red")
+begin_fill()
+penup()
+goto(20 , 170)
+left(10)
+pendown()
+forward(35)
+left(90)
+forward(35)
+left(90)
+forward(35)
+left(90)
+forward(35)
+end_fill()
+
+penup()
+goto(175 , 170 )
+pendown()
+color("red")
+begin_fill()
+forward(35)
+left(90)
+forward(35)
+left(90)
+forward(35)
+left(90)
+forward(35)
+end_fill()
 
 
 
