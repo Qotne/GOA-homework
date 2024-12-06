@@ -1,0 +1,6 @@
+sdasd = input("enter your age")
+print(type(sdasd))
+sdad =int(sdasd)
+print(type(sdad))
+sdsd = float(sdasd)
+print(type(sdsd))
