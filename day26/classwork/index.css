@@ -1,0 +1,18 @@
+h1 {
+    text-transform: uppercase; /* Makes text all uppercase */
+}
+h2 {
+    text-transform: capitalize; /* Capitalizes the first letter of each word */
+}
+h3 {
+    text-transform: lowercase; /* Makes text all lowercase */
+}
+p.underline {
+    text-decoration: underline; /* Underlines the text */
+}
+p.line-through {
+    text-decoration: line-through; /* Adds a line through the text */
+}
+p.shadow {
+    text-shadow: 2px 2px 4px gray; /* Adds a shadow to the text */
+}

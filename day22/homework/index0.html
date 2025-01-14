@@ -1,0 +1,24 @@
+/*CSS იწერება პირდაპირ HTML ელემენტში/*
+/*CSS იწერება HTML დოკუმენტის style ტეგში/*
+/*CSS იწერება ცალკე ფაილში და HTML ფაილს უკავშირდება link ით/*
+/*Inline: მხოლოდ ერთი ელემენტისთვის, პირდაპირ HTML-ში
+Internal: HTML ფაილშივე, style  ტეგში.
+External: ცალკე CSS ფაილში, მრავალჯერადი გამოყენებისთვის/*
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p style="color: red;">ეს არის Inline სტილი.</p>
+    <style>
+        p {
+          color: blue;
+        }
+      </style>
+      <link rel="stylesheet" href="styles.css">
+</body>
+</html>

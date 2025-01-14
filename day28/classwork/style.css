@@ -1,0 +1,21 @@
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    border: 2px solid #2c3e50;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    background-color: #e74c3c;
+    border: 2px solid #2c3e50;
+    border-radius: 10px;
+    position: absolute;
+    top: 400px; 
+    left: 600px; 
+}
