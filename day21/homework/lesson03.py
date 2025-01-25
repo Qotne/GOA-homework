@@ -1,11 +1,7 @@
+temperatures = [72, 68, 75, 70, 78, 74, 71]
 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print("Highest:", max(temperatures))
 
-first_half = numbers[:5]
-print("First half:", first_half)
+print("Lowest:", min(temperatures))
 
-second_half = numbers[5:]
-print("Second half:", second_half)
-
-squares = [x**2 for x in numbers]
-print("Squares:", squares)
+print("Average:", sum(temperatures) / len(temperatures))
