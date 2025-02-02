@@ -1,0 +1,38 @@
+a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:link {
+    font-weight: bold;
+    background-color: lightgray;
+  }
+
+  a:visited {
+    color: purple;
+  }
+
+  a:visited {
+    opacity: 0.7;
+    font-style: italic;
+  }
+  
+  a:active {
+    color: red;
+  }
+
+  a:active {
+    transform: scale(0.95);
+    background-color: yellow;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: orange;
+    cursor: pointer;
+  }
+  
+
