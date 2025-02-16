@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ვებგვერდის სათაური</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ვებგვერდის სათაური</h1>
+        <nav>
+            <a href="#">მთავარი</a> | <a href="#">კონტაქტი</a>
+        </nav>
+    </header>
+    
+    <section class="static-section">
+        <h2>Static პოზიციონირება</h2>
+        <p>ეს არის ნაგულისხმევი პოზიციონირების ტიპი.</p>
+    </section>
+    
+    <section class="relative-section">
+        <h2>Relative პოზიციონირება</h2>
+        <p>ეს ელემენტი გადანაცვლებულია ზემოთ და მარცხნივ.</p>
+    </section>
+    
+    <section class="absolute-container">
+        <h2>Absolute პოზიციონირება</h2>
+        <div class="absolute-box">ეს ელემენტი აბსოლუტურად პოზიციონირებულია.</div>
+    </section>
+    
+    <section>
+        <h2 class="sticky-box">Sticky პოზიციონირება</h2>
+        <p>ეს ელემენტი რჩება ფიქსირებულად სანამ კონკრეტულ წერტილს არ მიაღწევს.</p>
+        <p style="height: 500px;">გრძელი კონტენტი</p>
+    </section>
+    
+    <footer>
+        <p>ეს არის ფიქსირებული ფუთერი.</p>
+    </footer>
+</body>
+</html>
+
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav {
+    margin-top: 10px;
+}
+section {
+    padding: 60px 20px;
+    min-height: 300px;
+    border-bottom: 1px solid #ccc;
+}
+.static-section {
+    position: static;
+}
+.relative-section {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: lightblue;
+    padding: 20px;
+}
+.absolute-container {
+    position: relative;
+    height: 200px;
+    background: lightgray;
+}
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background: orange;
+    padding: 20px;
+}
+.sticky-box {
+    position: sticky;
+    top: 10px;
+    background: yellow;
+    padding: 10px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
