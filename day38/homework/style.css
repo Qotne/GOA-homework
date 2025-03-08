@@ -1,0 +1,25 @@
+p { 
+    -webkit-text-emphasis: filled dot; 
+    text-emphasis: filled dot;
+  }
+  .blur-box { 
+    -webkit-backdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px);
+  }
+  .masked { 
+    -webkit-mask-image: linear-gradient(to right, black, transparent); 
+    mask-image: linear-gradient(to right, black, transparent);
+  }
+  .no-select { 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+  }
+  .scroll-container { 
+    -webkit-scroll-snap-type: y mandatory; 
+    -ms-scroll-snap-type: y mandatory; 
+    scroll-snap-type: y mandatory;
+  }
+  
+  
