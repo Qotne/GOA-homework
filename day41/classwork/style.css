@@ -1,8 +1,34 @@
-.box {
-    width: 150px;
-    height: 150px;
-    background-color: blue;
-    border: 3px solid black;
-    border-radius: 10px;
-    transition: width 0.5s, height 0.5s, border-radius 0.5s, background-color 0.5s;
+
+div {
+    border-radius: 9px;
+     margin: 500px;
+    width: 80px;
+    background-color:
+    aqua;
+    text-align: center;
+    font-family: cursive;
+    animation-name: css;
+    animation-duration: 35;
+    animation-iteration-count: infinite; animation-direction: normal;
+    animation-timing-function: ease-in;
+    animation-delay: 0.15;
+    animation-fill-mode: forwards;
+}
+    @keyframes css {
+    }
+    0% {
+    
+        background-color: aqua;
+    }
+    25% {
+        background-color: black;
+        transform: rotate(250deg);
+        transform: translate(250px);
+    }
+    50% {
+    }
+    100%
+        background-color: greenyellow;
+        transform: rotate(250deg); transform: translate(250px);
+        background-color: blueviolet;
 }
