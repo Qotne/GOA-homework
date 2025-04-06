@@ -24,7 +24,7 @@ body {
 }
 
 .grid-container > * {
-    background-color: #4776c2;
+    background-color: #3a3d42;
     color: white;
     display: flex;
     align-items: flex-start; 
