@@ -9,3 +9,13 @@ def open_or_sinior(data):
             output.append("open")
     return output
 
+def printer_error(s):
+    errors = 0
+    total = len(s)
+
+    for letter in s:
+        if letter not in "abcdefghijklm":
+            errors = errors + 1
+
+    fraction = str(errors) + "/" + str(total)
+    return fraction
