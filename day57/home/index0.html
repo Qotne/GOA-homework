@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+
+
+    <script>
+    let name = prompt("გთხოვთ, შეიყვანეთ თქვენი სახელი:");
+        alert(`მოგესალმებით, ${name}! მოხარული ვარ, რომ აქ ხარ.`);
+
+        let num1 = Number(prompt("შეიყვანეთ პირველი რიცხვი:"));
+    let num2 = Number(prompt("შეიყვანეთ მეორე რიცხვი:"));
+    let num3 = Number(prompt("შეიყვანეთ მესამე რიცხვი:"));
+    let num4 = Number(prompt("შეიყვანეთ მეოთხე რიცხვი:"));
+    let num5 = Number(prompt("შეიყვანეთ მეხუთე რიცხვი:"));
+
+
+    let sum = num1 + num2 + num3 + num4 + num5;
+    let difference = num1 - num2 - num3 - num4 - num5;
+    let product = num1 * num2 * num3 * num4 * num5;
+    let division = num1 / num2; 
+    let exponent = num1 ** num2; 
+    let modulo = num1 % num2; 
+
+    let x = 5;
+    console.log(x++);  // ჯერ ბეჭდავს 5-ს, შემდეგ x ხდება 6
+    console.log(x);    // ახლა x არის 6
+
+    let q = 3;
+    console.log(++q);  // ჯერ ზრდის 1-ით, შემდეგ ბეჭდავს 4
+
+    for (let i = 0; i < 5; i++) {
+    console.log("რიცხვი:", i);
+}
+let a = 10;
+a = a + 1;
+console.log(a);  // 11
+
+function increase(val) {
+    return val + 1;
+}
+
+let result = increase(7);
+console.log(result);  // 8
+
+// n2  დეკრემენტაციაზე
+let y = 5;
+a--;
+console.log(y); 
+
+
+let b = 10;
+--b;
+console.log(b); 
+
+
+let c = 7;
+console.log(c--); 
+console.log(c);  
+
+
+let d = 3;
+console.log(--d); 
+
+
+let e = 1;
+e = e - 1;
+console.log(e); // 0
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
