@@ -1,0 +1,19 @@
+.rotate-box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: rotate(45deg);
+  }
+  .scale-box {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transform: scale(1.5);
+  }
+  .move-box {
+    width: 100px;
+    height: 100px;
+    background: green;
+    transform: translate(50px, 20px);
+  }
+  
